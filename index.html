@@ -2,23 +2,230 @@
 <html lang="en">
 
 <!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
+WRITTEN BY: Samanta Jimenez Sandate
+EMAIL: samanj4@uci.edu
 -->
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
-   <!-- you would also link to Bootstrap here! -->
-  <title>title here</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Samanta Jimenez Sandate">
+  <meta name="description" content="Samanta's Portfolio">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link rel = stylesheet href="portfolio_style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <title>Samanta Jimenez Sandate | Portfolio</title>
 </head>
-<body>
-  <p>
+<body> 
+
+<!--Navigation Bar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-success-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#home">Samanta Jimenez Sandate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <main class="container my-5">
+
+  <!--Home Page-->
+    <section id="home" class="row align-items-center">
+      <div class="col-md-4 text-center">
+      <img src="https://media.licdn.com/dms/image/v2/D4E03AQFYQ7VXJUKGDA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729103518264?e=2147483647&v=beta&t=oC1WjItkcARJNjtk8szaZfbCYn71K22kJAyQTZKN2bo" 
+           alt="Samanta Jimenez Sandate"
+           class="profile-img">
+       </div>
+      <div class="col-md-8">
+        <h1>♡ Hi, I'm Samanta! ♡</h1>
+        <p>
+          I’m an aspiring UX designer passionate about creating accessible and inclusive experiences. 
+          My work is driven by a commitment to advocating for underrepresented communities, 
+          and I see design as a powerful way to make technology more equitable.
+        </p>
+      </div>
+    </section>
+
+    <hr>
+
+<!--Skills Page-->
+
+<section id="skills" class="text-center my-5">
+  <h2>Skills</h2>
+  <div class="d-flex flex-wrap justify-content-center gap-3 mt-3">
+    
+    <div class="icon-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077183.png" alt="Wireframing" width="40" height="43">
+      <div class="hover-text">Wireframing</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968701.png" alt="Figma" width="40" height="45">
+      <div class="hover-text">Figma</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/1352/1352604.png" alt="Prototyping" width="40" height="45">
+      <div class="hover-text">Prototyping</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://static.thenounproject.com/png/995627-200.png" alt="User Testing" width="40" height="48">
+      <div class="hover-text">User Testing</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/180/180891.png" alt="HTML" width="40" height="45">
+      <div class="hover-text">HTML</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://cdn1.iconfinder.com/data/icons/business-programming/512/css-512.png" alt="CSS" width="40" height="45">
+      <div class="hover-text">CSS</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAc8LPkj2Onpc7GGc9srjtsRNueUQZ1HsdMQ&s" alt="Bootstrap" width="40" height="45">
+      <div class="hover-text">Bootstrap</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://static.vecteezy.com/system/resources/previews/026/758/206/non_2x/javascript-development-icon-vector.jpg" alt="JavaScript" width="40" height="45">
+      <div class="hover-text">JavaScript</div>
+    </div>
+
+  </div>
+</section>
+
+    <hr>
+
+<!--Resume Page-->
+    <section id="resume" class="text-center my-5">
+      <h2>Resume</h2>
+        <img src="https://i.ibb.co/Fb7NZPtc/Resume-1.jpg" 
+            alt="Preview of Samanta's resume" 
+            class="img-fluid my-3 border rounded">
+      <div>
+        <a href="https://docs.google.com/document/d/1Hm_ONmTTfkXYq-15ansZrLJVU6pcIB7MnljaQ3-lBNk/edit?usp=sharing"
+          target="_blank"
+          class="btn btn-success mt-2">Open in Google Docs</a>
+      </div>
+    </section>
+<hr>
+
+<!--Projects Page-->
+
+    <section id="projects" class="my-5">
+      <h2 class="text-center">Projects</h2>
+      <div class="row text-center mt-4">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 project-card">
+      
+            <img src="https://images.pexels.com/photos/1459534/pexels-photo-1459534.jpeg" class="card-img-top" alt="Website Redesign for Accessibility and Engagement">
+            <div class="card-body">
+              <h5 class="card-title">Website Redesign for Accessibility and Engagement</h5>
+              <p class="card-text">Collaborated with a cross-functional team of five designers through Develop for Good to redesign a nonprofit’s educational website. 
+                                   Focused on improving cultural inclusivity, accessibility, and visual clarity using Figma for prototyping and Wix for implementation, 
+                                   resulting in a more intuitive and visually cohesive online experience for students and educators.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 project-card">
+            <img src="https://plus.unsplash.com/premium_photo-1672252617505-b6149ea20fcf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWVzdGhldGljJTIwZmxvd2VyfGVufDB8fDB8fHww" class="card-img-top" alt="Streamlining Course Enrollment for Students">
+            <div class="card-body">
+              <h5 class="card-title">Streamlining Course Enrollment for Students</h5>
+              <p class="card-text">Partnered with six peers to reimagine the UCI WebReg system with a modern, student-centered interface. 
+                                   Conducted usability testing, built wireframes and interactive prototypes in Figma, and designed features to simplify course search, 
+                                   scheduling, and registration, enhancing usability and reducing navigation friction for university students.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 project-card">
+            <img src="https://i.pinimg.com/originals/bf/f5/d0/bff5d074d399bdfec6071e9168398406.jpg" class="card-img-top" alt="Empowering Students Through Medical Insurance Literacy">
+            <div class="card-body">
+              <h5 class="card-title">Empowering Students Through Medical Insurance Literacy</h5>
+              <p class="card-text">Led the design of a website aimed at increasing medical insurance awareness among UCI students. 
+                                   The platform includes resource pages, an easy-to-navigate glossary, and an integrated chatbot to answer common questions. 
+                                   Focused on accessible information architecture and empathetic UX writing to support informed healthcare decisions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+<!--Contact Page-->
+
+    <section id="contact" class="text-center my-5">
+      <h2><span>☆</span> Contact Me <span>☆</span></h2>
+      <form class="mx-auto" style="max-width: 500px;" aria-label="Contact form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" aria-required="true">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" aria-required="true">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Write your message here"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="text-center py-4 bg-success-subtle">
+
+  <!--Footer-->
+    <p><b>Connect with me!</b></p>
+        <div class="icon-container">
+      <img src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Icon-Black-Logo.wine.svg" alt="Samanta's LinkedIn" width="45" height="55">
+      <div class="hover-text">LinkedIn</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Samanta's Github" width="40" height="45">
+      <div class="hover-text">Github</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://www.edigitalagency.com.au/wp-content/uploads/Instagram-logo-PNG-black-large-size.png" alt="Samanta's Instagram" width="40" height="45">
+      <div class="hover-text">Instagram</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://images.icon-icons.com/1458/PNG/512/twitterbirdlogo_99661.png" alt="Samanta's Twitter" width="40" height="48">
+      <div class="hover-text">Twitter</div>
+    </div>
+
+    <div class="icon-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="Samanta's Facebook" width="40" height="45">
+      <div class="hover-text">Facebook</div>
+    </div>
+  </footer>
+
     <a href="http://validator.w3.org/check?uri=referer">
        W3C validator
     </a>
-  </p>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

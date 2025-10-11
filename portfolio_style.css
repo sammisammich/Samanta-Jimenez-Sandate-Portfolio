@@ -1,0 +1,181 @@
+/* General styling */
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f9faf8;
+  color: #333;
+  margin: 0;
+}
+
+/* Headings */
+h1, h2 {
+  color: #1d3a29;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size:xx-small;
+}
+
+/* --------------------------------- */
+/* HOME SECTION                      */
+/* --------------------------------- */
+#home {
+  margin-top: 80px;
+}
+
+.profile-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid darkseagreen;
+}
+
+/* --------------------------------- */
+/* SKILLS SECTION                    */
+/* --------------------------------- */
+#skills {
+  background-color: #f0f5f1;
+  padding: 60px 0;
+}
+
+.badge {
+  font-size: 1rem;
+  padding: 10px 15px;
+}
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-container img {
+  transition: transform 0.3s ease;
+}
+
+.icon-container:hover img {
+  transform: scale(1.1);
+}
+
+.hover-text {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.icon-container:hover .hover-text {
+  opacity: 1;
+}
+
+.badge {
+  font-size: 1rem;
+  padding: 10px 15px;
+}
+
+/* --------------------------------- */
+/* RESUME SECTION                    */
+/* --------------------------------- */
+#resume img {
+  max-width: 70%;
+  height: auto;
+  border: 2px solid rgb(248, 163, 241);
+}
+
+.btn-success {
+  background-color: darkseagreen;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: darkgreen;
+}
+
+/* --------------------------------- */
+/* PROJECTS SECTION                  */
+/* --------------------------------- */
+#projects {
+  background-color: #f9faf8;
+  padding: 60px 0;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgb(240, 192, 240);
+}
+
+.project-card img {
+  height:200px;
+  object-fit:cover;
+}
+
+.card {
+  display: flex;
+  flex-direction:column;
+  height:100%;
+}
+
+.card-body {
+  flex-grow: 1;
+  padding:20px;
+}
+
+/* --------------------------------- */
+/* CONTACT FORM                      */
+/* --------------------------------- */
+#contact form {
+  background-color: #f0f5f1;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#contact button {
+  background-color: darkseagreen;
+  border: none;
+}
+
+#contact button:hover {
+  background-color: darkgreen;
+}
+
+/* --------------------------------- */
+/* FOOTER                            */
+/* --------------------------------- */
+footer {
+  background-color: darkseagreen;
+  color: black;
+}
+
+footer a {
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: darkgreen;
+}
+
+footer .icon-container {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+
